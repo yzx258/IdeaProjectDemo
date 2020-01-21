@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: zuulServer
+server:
+  port: 8889
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+zuul:
+  host:
+    connect-timeout-millis: 6000
+    socket-timeout-millis: 10000 #默认就是10000
+  routes:
+    api-url:
+      path: /api-url/**
+      serviceId: cloud-shop-userservice
+
+logging.level.org.springframework.security: DEBUG
