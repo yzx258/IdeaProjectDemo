@@ -14,6 +14,7 @@
     <bytecodeTargetLevel>
       <module name="client" target="1.8" />
       <module name="eureka" target="1.8" />
+      <module name="github-client" target="1.8" />
       <module name="product" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
@@ -22,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="client" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="github-client" options="-parameters" />
       <module name="product" options="" />
       <module name="zuul" options="-parameters" />
     </option>
