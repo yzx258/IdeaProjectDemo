@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="client" />
         <module name="zuul" />
+        <module name="config-client-xf" />
         <module name="config-client" />
         <module name="eureka" />
       </profile>
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="client" target="1.8" />
       <module name="config-client" target="1.8" />
+      <module name="config-client-xf" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="github-client" target="1.8" />
       <module name="product" target="1.8" />
@@ -25,6 +27,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="client" options="-parameters" />
       <module name="config-client" options="-parameters" />
+      <module name="config-client-xf" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="github-client" options="-parameters" />
       <module name="product" options="" />
